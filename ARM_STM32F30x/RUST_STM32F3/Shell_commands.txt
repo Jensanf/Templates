@@ -1,0 +1,4 @@
+openocd -f interface/stlink-v2-1.cfg -f target/stm32f3x.cfg
+cargo run
+arm-none-eabi-gdb -q C:\\Users\\e.anfimov\\Documents\\1_RUST\\discovery-master\\target\\thumbv7em-none-eabihf\\debug\\led-roulette
+cargo build --target thumbv7em-none-eabihf    

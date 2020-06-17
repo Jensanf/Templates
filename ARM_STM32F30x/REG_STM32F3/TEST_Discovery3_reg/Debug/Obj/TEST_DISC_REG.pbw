@@ -1,0 +1,30 @@
+[
+  {
+    "ID": "c:@F@main",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void main(void)",
+    "location": {
+      "column": "6",
+      "line": "1",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\STM32F30x\\C_Registers\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@187@F@main@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "26",
+      "line": "8",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\STM32F30x\\C_Registers\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  }
+]
