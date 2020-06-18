@@ -1,27 +1,591 @@
 [
   {
+    "ID": "c:main.c@T@uint32_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "31",
+      "line": "1",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "uint32_t",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@53@macro@__IO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__IO",
+    "location": {
+      "column": "13",
+      "line": "2",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "__IO",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@132@macro@PERIPH_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "PERIPH_BASE",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "PERIPH_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@176@macro@AHB1PERIPH_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "AHB1PERIPH_BASE",
+    "location": {
+      "column": "9",
+      "line": "6",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "AHB1PERIPH_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@236@macro@RCC_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_BASE",
+    "location": {
+      "column": "9",
+      "line": "7",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "RCC_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@300@macro@RCC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC",
+    "location": {
+      "column": "9",
+      "line": "8",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "RCC",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@392@macro@RCC_AHBENR_GPIOEEN_Pos",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR_GPIOEEN_Pos",
+    "location": {
+      "column": "9",
+      "line": "11",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "RCC_AHBENR_GPIOEEN_Pos",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@450@macro@RCC_AHBENR_GPIOEEN_Msk",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR_GPIOEEN_Msk",
+    "location": {
+      "column": "9",
+      "line": "12",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "RCC_AHBENR_GPIOEEN_Msk",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@534@macro@RCC_AHBENR_GPIOEEN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "RCC_AHBENR_GPIOEEN",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "RCC_AHBENR_GPIOEEN",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@610@macro@AHB2PERIPH_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "AHB2PERIPH_BASE",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "AHB2PERIPH_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@670@macro@GPIOE_BASE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE_BASE",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "GPIOE_BASE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@734@macro@GPIOE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIOE",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "GPIOE",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@896@macro@GPIO_ODR_9",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "GPIO_ODR_9",
+    "location": {
+      "column": "9",
+      "line": "22",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "name": "GPIO_ODR_9",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@RCC_TypeDef",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@CR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CR",
+        "location": {
+          "column": "17",
+          "line": "26",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "CR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@CFGR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR",
+        "location": {
+          "column": "17",
+          "line": "27",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "CFGR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@CIR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CIR",
+        "location": {
+          "column": "17",
+          "line": "28",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "CIR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@APB2RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2RSTR",
+        "location": {
+          "column": "17",
+          "line": "29",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "APB2RSTR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@APB1RSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1RSTR",
+        "location": {
+          "column": "17",
+          "line": "30",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "APB1RSTR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@AHBENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBENR",
+        "location": {
+          "column": "17",
+          "line": "31",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "AHBENR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@APB2ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB2ENR",
+        "location": {
+          "column": "17",
+          "line": "32",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "APB2ENR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@APB1ENR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "APB1ENR",
+        "location": {
+          "column": "17",
+          "line": "33",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "APB1ENR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@BDCR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BDCR",
+        "location": {
+          "column": "17",
+          "line": "34",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "BDCR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@CSR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CSR",
+        "location": {
+          "column": "17",
+          "line": "35",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "CSR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@AHBRSTR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AHBRSTR",
+        "location": {
+          "column": "17",
+          "line": "36",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "AHBRSTR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@CFGR2",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR2",
+        "location": {
+          "column": "17",
+          "line": "37",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "CFGR2",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@SA@RCC_TypeDef@FI@CFGR3",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "CFGR3",
+        "location": {
+          "column": "17",
+          "line": "38",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "CFGR3",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      },
+      {
+        "ID": "c:@T@RCC_TypeDef",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct RCC_TypeDef",
+        "location": {
+          "column": "3",
+          "line": "39",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "RCC_TypeDef",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_24_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@GPIO_TypeDef",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@MODER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "MODER",
+        "location": {
+          "column": "17",
+          "line": "43",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "MODER",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@OTYPER",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OTYPER",
+        "location": {
+          "column": "17",
+          "line": "44",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "OTYPER",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@OSPEEDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "OSPEEDR",
+        "location": {
+          "column": "17",
+          "line": "45",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "OSPEEDR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@PUPDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "PUPDR",
+        "location": {
+          "column": "17",
+          "line": "46",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "PUPDR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@IDR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "IDR",
+        "location": {
+          "column": "17",
+          "line": "47",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "IDR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@ODR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ODR",
+        "location": {
+          "column": "17",
+          "line": "48",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "ODR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@BSRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BSRR",
+        "location": {
+          "column": "17",
+          "line": "49",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "BSRR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@LCKR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "LCKR",
+        "location": {
+          "column": "17",
+          "line": "50",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "LCKR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@AFR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "AFR",
+        "location": {
+          "column": "17",
+          "line": "51",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "AFR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@SA@GPIO_TypeDef@FI@BRR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "BRR",
+        "location": {
+          "column": "17",
+          "line": "52",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "BRR",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      },
+      {
+        "ID": "c:@T@GPIO_TypeDef",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct GPIO_TypeDef",
+        "location": {
+          "column": "2",
+          "line": "53",
+          "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
+        },
+        "name": "GPIO_TypeDef",
+        "origin": "project_file",
+        "scope": "_anonymous_main_c_41_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:@F@main",
     "What": "Function",
     "defdec": "Def",
     "display": "void main(void)",
     "location": {
       "column": "6",
-      "line": "1",
-      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\STM32F30x\\C_Registers\\TEST_Discovery3_reg\\main.c"
+      "line": "55",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
     },
     "name": "main",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:main.c@187@F@main@i",
+    "ID": "c:main.c@3897@F@main@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "26",
-      "line": "8",
-      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\STM32F30x\\C_Registers\\TEST_Discovery3_reg\\main.c"
+      "line": "66",
+      "path": "C:\\Users\\e.anfimov\\Documents\\Templates\\ARM_STM32F30x\\REG_STM32F3\\TEST_Discovery3_reg\\main.c"
     },
     "name": "i",
     "origin": "project_file",

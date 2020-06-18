@@ -1,26 +1,26 @@
-"C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\CMSIS\system_stm32f3xx.c"
+"C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\CMSIS\system_stm32f3xx.c"
 -std=c11
 -ferror-limit=0
 -fbracket-depth=512
 -MD
 -MF
-C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\Debug\Obj\system_stm32f3xx.pbi.dep
+C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\Debug\Obj\system_stm32f3xx.pbi.dep
 -o
 system_stm32f3xx.pbi
 -I
-C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\CMSIS
+C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\CMSIS
 -I
-C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj
+C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3
 -I
-C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\CMSIS
+C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\CMSIS
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc
 -I
 C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\arm\inc\c
 -I
-C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj
+C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3
 -I
-C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\CMSIS
+C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\CMSIS
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0

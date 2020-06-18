@@ -23,9 +23,9 @@
 
 if ($debugfile -eq "")
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\STM32F30x\C_Registers\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.general.xcl" --backend -f "C:\Users\e.anfimov\Documents\Templates\STM32F30x\C_Registers\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\REG_STM32F3\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.general.xcl" --backend -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\REG_STM32F3\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.driver.xcl" 
 }
 else
 {
-& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\STM32F30x\C_Registers\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\e.anfimov\Documents\Templates\STM32F30x\C_Registers\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.driver.xcl" 
+& "C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\REG_STM32F3\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.general.xcl" --debug_file=$debugfile --backend -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\REG_STM32F3\TEST_Discovery3_reg\settings\TEST_DISC_REG.Debug.driver.xcl" 
 }

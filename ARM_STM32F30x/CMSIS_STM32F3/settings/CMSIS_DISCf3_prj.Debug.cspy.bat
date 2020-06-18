@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\settings\CMSIS_DISCf3_prj.Debug.general.xcl" --backend -f "C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\settings\CMSIS_DISCf3_prj.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\settings\CMSIS_DISCf3_prj.Debug.general.xcl" --backend -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\settings\CMSIS_DISCf3_prj.Debug.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\settings\CMSIS_DISCf3_prj.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\e.anfimov\Documents\CMSIS_DISCf3_prj\settings\CMSIS_DISCf3_prj.Debug.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\settings\CMSIS_DISCf3_prj.Debug.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\CMSIS_STM32F3\settings\CMSIS_DISCf3_prj.Debug.driver.xcl" 
 
 @echo off 
 :end

@@ -25,7 +25,7 @@ if not "%~1" == "" goto debugFile
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.general.xcl" --backend -f "C:\Users\e.anfimov\Documents\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\HAL_STM32F3\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.general.xcl" --backend -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\HAL_STM32F3\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.driver.xcl" 
 
 @echo off 
 goto end 
@@ -34,7 +34,7 @@ goto end
 
 @echo on 
 
-"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\e.anfimov\Documents\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.driver.xcl" 
+"C:\Program Files (x86)\IAR Systems\Embedded Workbench 8.3\common\bin\cspybat" -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\HAL_STM32F3\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.general.xcl" "--debug_file=%~1" --backend -f "C:\Users\e.anfimov\Documents\Templates\ARM_STM32F30x\HAL_STM32F3\TEST_CubeSTM32F3\EWARM\settings\TEST_CubeSTM32F3.TEST_CubeSTM32F3.driver.xcl" 
 
 @echo off 
 :end
