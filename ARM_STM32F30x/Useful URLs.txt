@@ -1,2 +1,3 @@
 https://habr.com/ru/post/216843/  - Начинаем изучать Cortex-M на примере STM32
 http://easyelectronics.ru/arm-uchebnyj-kurs-iar-ewarm-sozdanie-proekta.html ARM. - Учебный курс. IAR EWARM. Создание проекта.
+https://habr.com/ru/post/347980/ - Можно ли использовать С++ вместо Си для небольших проектов в микроконтроллерах
