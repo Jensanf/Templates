@@ -14,4 +14,8 @@ fn main() {
     another_function();
     let number = yet_another_function();
     println!("{}", number);
+    
+    println!("Please, ENTER some keys for exit...");
+    let mut buffer = String::new();
+    std::io::stdin().read_line(&mut buffer).expect("Failed");
 }
